@@ -61,6 +61,9 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    color: #000;
+    font-family: Arabic Typesetting;
+    font-size: 22px;
 }
 #readmore:hover,#readmore:active,#readmore:focus{
     opacity: 100%;
@@ -88,24 +91,56 @@ p{
     border: none!important;
 }
 .rectangle2{
-    background-color: #84A59D;
+    background-color: #F5CAC3;
     width: 90%;
-    margin: 100px 30px;
-    padding-top: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    z-index: 1;
+    z-index: 2;
     position: relative;
     padding: 40px;
     opacity: 90%;
-    margin-bottom: 15%;
+    margin-top: -40%;
 }
 .bg2{
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
-    position: absolute;
+    position: sticky;
+}
+.btn2{
+    background-color: #F9C571;
+}
+.cards2{
+    margin-top: 25%;
+}
+.img-gallary{
+    width: 12rem;
+}
+.img-row{
+    display: flex;
+    justify-content: space-around;
+    margin: 4%;
+}
+.info{
+    background-color: #F5CAC3;
+    padding: 40px;
+}
+form{
+    padding-left: 20%;
+}
+.formbtn{
+    height: 35px!important;
+    margin-top: 33px;
+}
+input{
+    background-color: #f7ede2!important;
+    border-radius: 20px!important;
+}
+#input:hover,#input:active,#input:focus{
+    border: none!important;
+    box-shadow:none !important;
+    outline:0px !important;    
 }
