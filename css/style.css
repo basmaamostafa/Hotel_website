@@ -1,0 +1,111 @@
+body{
+/*    margin: 0;
+    padding: 0;*/
+    background-color: #f7ede2;
+}
+.bg{
+/*    margin-top: -10%;*/
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: absolute;
+}
+nav{
+    z-index: 2;
+}
+.logo{
+    letter-spacing: 15px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    position: fixed;
+    z-index: 3;
+    font-family: Andalus;
+    font-size: 30px;
+    color: #000;
+}
+.test {
+    background-color: #f7ede2;  
+    padding-bottom: 5px;
+}
+
+nav ul,li a{
+    font-size:18px ;
+    color: #000;
+}
+
+.rectangle{
+    background-color: #84A59D;
+    width: 90%;
+    margin: 150px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    position: relative;
+    padding: 40px;
+    opacity: 90%;
+    margin-bottom: 15%;
+}
+p{
+    font-size: 28px;
+    text-align: center;    
+    padding: 0 40px;
+    font-family: Arabic Typesetting;
+}
+.btn{
+    background-color: #F28482;
+    border-radius: 20px;
+    padding: 4px 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#readmore:hover,#readmore:active,#readmore:focus{
+    opacity: 100%;
+    border: #fff 1px solid;
+    box-shadow:none !important;
+    outline:0px !important;    
+}
+.title{
+    font-size: 30px;
+    text-align: center;    
+    font-family: Arabic Typesetting;
+
+}
+.title span{
+    text-transform: uppercase;   
+}
+.card-title{
+    text-align: center;
+}
+.imgcard{
+    margin: 20px 0 50px;
+}
+.card-body{
+    background-color: #f7ede2!important;
+    border: none!important;
+}
+.rectangle2{
+    background-color: #84A59D;
+    width: 90%;
+    margin: 100px 30px;
+    padding-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    position: relative;
+    padding: 40px;
+    opacity: 90%;
+    margin-bottom: 15%;
+}
+.bg2{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: absolute;
+}
